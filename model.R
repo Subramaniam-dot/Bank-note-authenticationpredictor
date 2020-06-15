@@ -1,15 +1,10 @@
-####################################
-# Data Professor                   #
-# http://youtube.com/dataprofessor #
-# http://github.com/dataprofessor  #
-####################################
 
 # Importing libraries
 library(RCurl) # for downloading the iris CSV file
 library(randomForest)
 library(caret)
 
-# Importing the Iris data set
+# Importing the  data set
 bankn <- read.csv(text = getURL("https://raw.githubusercontent.com/Subramaniam-dot/shiny/master/banknoteauth.csv") )
 
 # Performs stratified random split of the data set
